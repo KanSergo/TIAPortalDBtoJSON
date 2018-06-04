@@ -1,0 +1,30 @@
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_CASS_Qty' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_BAY_Qty' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_TO_Counter_On' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_TO_PreNumbCyc' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_TO_DayFromLast' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_TO_DayFromBegin' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_TO_CycFromBegin' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".GR1.Enable' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".GR1.Side' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".GR1.TimeOut' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".GR2.Enable' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".GR2.Side' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".GR2.TimeOut' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_CELL_Qty' -->
+!-- AWP_In_Variable Name='"GDB#WarehouseConstant_DB".WH_BAY_Qty' -->
+"GDB#WarehouseConstant_DB".WH_CASS_Qty
+"GDB#WarehouseConstant_DB".WH_BAY_Qty
+"GDB#WarehouseConstant_DB".WH_TO_Counter_On
+"GDB#WarehouseConstant_DB".WH_TO_PreNumbCyc
+"GDB#WarehouseConstant_DB".WH_TO_DayFromLast
+"GDB#WarehouseConstant_DB".WH_TO_DayFromBegin
+"GDB#WarehouseConstant_DB".WH_TO_CycFromBegin
+"GDB#WarehouseConstant_DB".GR1.Enable
+"GDB#WarehouseConstant_DB".GR1.Side
+"GDB#WarehouseConstant_DB".GR1.TimeOut
+"GDB#WarehouseConstant_DB".GR2.Enable
+"GDB#WarehouseConstant_DB".GR2.Side
+"GDB#WarehouseConstant_DB".GR2.TimeOut
+"GDB#WarehouseConstant_DB".WH_CELL_Qty
+"GDB#WarehouseConstant_DB".WH_BAY_Qty

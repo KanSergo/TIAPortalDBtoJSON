@@ -1,0 +1,28 @@
+﻿DATA_BLOCK "GDB#WarehouseConstant_DB"
+{ S7_Optimized_Access := 'FALSE' }
+VERSION : 0.1
+   STRUCT 
+      WH_ID_Num : Int;   // Уникальный идентификационный номер машины
+      WH_CELL_Qty : Int;   // Общее количество ячеек (AllQuantityCell)
+      WH_CASS_Qty : Int;   // Общее количество паллет
+      WH_BAY_Qty : Int;   // Количество окон выдачи (BAYQuantity)
+      WH_TO_Counter_On : Bool;   // Вкл/Выкл Счетчик циклов до ТО
+      WH_TO_PreNumbCyc : Int;   // Заданное кол-во циклов до ТО (PredeterminedNumbCyc)
+      WH_TO_DayFromLast : Int;   // Количество дней от последнего ТО (DayFromLastMaintenance)
+      WH_TO_DayFromBegin : DInt;   // Количество дней от запуска
+      WH_TO_CycFromBegin : DInt;   // Количество циклов от запуска
+      GR1 : Struct   // Выдача №1
+         Enable : Bool;   // Включить
+         Side : Bool;   // Сторона
+         TimeOut : Time;   // Таймаут
+      END_STRUCT;
+      GR2 : Struct   // Выдача №2
+         Enable : Bool;   // Включить
+         Side : Bool;   // Сторона
+         TimeOut : Time;   // Таймаут
+      END_STRUCT;
+   END_STRUCT;
+BEGIN
+   WH_CELL_Qty := 312;
+   WH_BAY_Qty := 1;
+END_DATA_BLOCK

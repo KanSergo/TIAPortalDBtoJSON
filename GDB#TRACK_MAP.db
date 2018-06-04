@@ -1,0 +1,8 @@
+﻿DATA_BLOCK "GDB#TRACK_MAP"
+{ S7_Optimized_Access := 'FALSE' }
+VERSION : 0.1
+   STRUCT 
+      Cass_TrackData : Array[0..10] of "TrackData";
+   END_STRUCT;
+BEGIN
+END_DATA_BLOCK

@@ -1,0 +1,12 @@
+﻿TYPE "TrackData"
+AUTHOR : FPN
+VERSION : 0.1
+   STRUCT
+      Cass_Num : Int;   // Номер кассеты
+      Side : Int;   // Сторона
+      Extracted : Bool;   // Выдвинута
+      Status : Bool;   // Статус
+   END_STRUCT;
+
+END_TYPE
+
